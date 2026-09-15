@@ -1,1 +1,17 @@
 @import "tailwindcss";
+
+@theme {
+   --color-navbarColor: #ffffff;
+   --color-btnColor: #3364F7;
+   --color-linkColor: #2a5bd7;
+
+   --background-image-custom-gradient: linear-gradient(to right, #3b82f6, #9333ea);
+   --background-image-custom-gradient-2: linear-gradient(to left, #3b82f6, #f43f5e);
+   --background-image-card-gradient: linear-gradient(to right, #38b2ac, #4299e1);
+
+   --shadow-custom: 0 0 15px rgba(0, 0, 0, 0.3);
+   --shadow-right: 10px 0px 10px -5px rgba(0, 0, 0, 0.3);
+
+   --font-roboto: "Roboto", sans-serif;
+   --font-montserrat: "Montserrat", sans-serif;
+}
